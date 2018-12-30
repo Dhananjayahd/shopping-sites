@@ -1,0 +1,172 @@
+h1.time{
+font-family: 'Kirang Haerang', cursive;
+    color: #fff;
+    font-size: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    
+    
+}
+span{
+    color: #e02626;
+}
+h2.tag {
+
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    word-spacing: 5px;
+    font-family: 'Poiret One', cursive;
+}
+.top{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+   
+}
+body,html{
+    margin: 0px 0px;
+    height: 100%;
+    margin: 0px 0px;
+    padding :0px; 
+    width: 100%;
+    z-index: -1;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    height: 110px;
+    background-color: transparent;
+    text-align: center;
+     }
+.nav ul{
+    list-style-type: none;
+    
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 90px;
+    padding-top: 30px;
+    font-size:25px;
+    font-weight: lighter;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.active{
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    padding: 15px 15px ;
+
+}
+.nav ul li a:hover{
+    background-color: #e02626;
+    color: black;
+    border-radius: 4px;
+    padding: 15px 15px ;
+}
+     
+
+.flip{
+ text-decoration-color: #2874f0;
+}
+
+.borderf{
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
+p.filp{
+    margin-top: 20px;
+    margin-left: 30px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+p.amazon{
+     margin-left: 20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+
+}
+p.myn{
+    margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+p.snap{
+   margin-left:25px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.al{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.ebay{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.jab{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.olp{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.qui{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+p.sh{
+   margin-left:20px;
+   font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: capitalize; 
+}
+.back{
+
+    background: linear-gradient( -45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 15s ease infinite;
+    
+}
+@keyframes BackgroundGradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+    
+}
